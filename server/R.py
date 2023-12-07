@@ -27,10 +27,7 @@ distortions = []
 
 
 
-optimal_k = 170
-
-
-
+optimal_k =370
 # KMeans clustering with optimal K
 kmeans = KMeans(n_clusters=optimal_k, random_state=42)
 kmeans.fit(X_scaled)
